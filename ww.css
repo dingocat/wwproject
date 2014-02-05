@@ -1,0 +1,76 @@
+body	{
+	font-family: 'Glegoo', serif;
+	color: white;
+	background-color: #009933;
+}
+#page {
+
+}
+
+#header {
+	background-color: #303030;
+	height: 150px;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	position: fixed;
+    padding: 0px 0px 0px 20px;
+}
+#header_gradient {
+	height: 30px;
+	width: 100%;
+	top: 150px;
+	position: fixed;
+	background-image: 
+	-webkit-gradient(
+	linear,
+	left top,
+	left bottom, 
+	from(rgba(48,48,48,1)), 
+	to(rgba(0,0,0,0)));
+	left: 0px;
+	right: 0px;
+}
+#content {
+	position: absolute;
+	background-color: #303030;
+	/*left: 100px;
+	right: 100px;*/
+	float: center;
+	 }
+h1	{
+	font-family: 'Allerta Stencil', sans-serif;
+}
+.h2_dan {
+	font-family: 'Rock Salt', cursive;
+}
+.h2_monty {
+	font-family: 'Dr Sugiyama', cursive;
+}
+.chapter	{
+	
+}
+#footer {
+	position: fixed;
+	background-color: #303030;
+	width: 100%;
+	height: 100px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
+#footer_gradient {
+	height: 30px;
+	width: 100%;
+	bottom: 100px;
+	position: fixed;
+	background-image: 
+	-webkit-gradient(
+	linear,
+	left top,
+	left bottom, 
+	from(rgba(0,0,0,0)), 
+	to(rgba(48,48,48,1)));
+	left: 0px;
+	right: 0px;
+}
